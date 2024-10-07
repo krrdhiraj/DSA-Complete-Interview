@@ -1,3 +1,5 @@
 This is a complete DSA instruction.
 Here I am pushing all the coding pattern and description of solution
-Here I will add the problem link of Leetcode/GFG and post the link of videos alos with complete solution about the problem.
+Here I will add the problem link of Leetcode/GFG and post the link of videos alos with complete solution about the problem
+
+Hey I'm learing DSA now and preparing for product based company.
