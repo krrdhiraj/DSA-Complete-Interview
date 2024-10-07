@@ -1,2 +1,3 @@
 This is a complete DSA instruction.
-Here I am pushing all the coding pattern and description of solution.
+Here I am pushing all the coding pattern and description of solution
+Here I will add the problem link of Leetcode/GFG and post the link of videos alos with complete solution about the problem.
