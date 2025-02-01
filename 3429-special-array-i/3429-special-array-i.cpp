@@ -3,9 +3,7 @@ public:
     bool isArraySpecial(vector<int>& nums) {
         int n = nums.size();
         for(int i = 0; i<n-1; i++){
-            int first = nums[i] & 1;
-            int second = nums[i+1] & 1;
-            if(first == second)
+            if((nums[i] & 1) == (nums[i+1] & 1))
                 return false;
         }
         return true;
