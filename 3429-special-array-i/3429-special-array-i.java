@@ -4,8 +4,8 @@ class Solution {
         if(n <= 1)
             return true;
         for(int i = 1; i<n; i++){
-            int first = nums[i-1] %2;
-            int second = nums[i] %2;
+            int first = nums[i-1] & 1;
+            int second = nums[i] & 1;
             if(first == second)
                 return false;
             
