@@ -1,26 +1,24 @@
 class Solution {
 public:
-    bool specialArray(vector<int> &nums, int &s, int &e){
-        for(int i = s; i<=e-1; i++){
-            if((nums[i] % 2) == (nums[i+1] % 2))
-                return false;
-        }
-        return true;
-    }
+    
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
         int n = nums.size();
-        vector<int> preSm(n,0);
+        vector<int> preSm(n,0); // for storing the violating indices.
         for(int i = 1; i<n; i++){
-           if((nums[i-1]%2) == (nums[i] % 2)){
+           if((nums[i-1]%2) == (nums[i] % 2)){ // found violating index
                 preSm[i] = preSm[i-1] + 1;
            }else{
                 preSm[i] = preSm[i-1];
            }
         }
-        vector<bool> ans;
+        int m = queries.size();
+        vector<bool> ans(m,false);
+        int i = 0;
         for(auto &v : queries){
             int s = v[0], e = v[1];
-            ans.push_back((preSm[e]-preSm[s]) == 0 ? true : false);
+            if((preSm[e]-preSm[s]) == 0)
+                ans[i] = true;
+            i++;
         }
         return ans;
     }
