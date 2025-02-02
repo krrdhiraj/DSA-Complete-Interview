@@ -11,6 +11,6 @@ public:
         if(nums[0] < nums[n-1]){
             rotation++;
         }
-        return rotation == 1 ;
+        return rotation > 1  ? false : true;
     }
 };
