@@ -35,9 +35,9 @@ public:
        
         BFSTopologicalSort(adj, numCourses, ans, indegree);
         
-        if(ans.size() != numCourses){
-            ans.clear();
+        if(ans.size() == numCourses){
+           return ans;
         }
-        return ans;
+        return {};
     }
 };
