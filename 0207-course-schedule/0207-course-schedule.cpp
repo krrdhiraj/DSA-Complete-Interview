@@ -1,36 +1,42 @@
 class Solution {
 public:
-    bool DFS(unordered_map<int, vector<int>>& adj, int u, vector<bool>& visited, vector<int> &inRecursion){
-        visited[u] = true;
-        inRecursion[u] = true;
-        for(int &v : adj[u]){
-            if(!visited[v] && DFS(adj, v, visited, inRecursion)){
-                return true;
-            }else if(inRecursion[v]){
-                return true;
+    bool topoSortBFS(unordered_map<int, vector<int>>& adj, int n, vector<int>& indegree){
+        queue<int> que; 
+        int cnt =0; // keep track of how many nodes(vertices) i've visited
+        // push all the vertices into que whose indegree = 0
+        for(int i = 0; i<n; i++){
+            if(indegree[i] == 0){
+                que.push(i);
+                cnt++;
             }
         }
-        inRecursion[u] = false;
-       return false;
+        // apply Khan's Algorithm : to find cycle in graph
+        while(!que.empty()){
+            int u = que.front();
+            que.pop();
+            for(int &v : adj[u]){
+                indegree[v]--;
+                if(indegree[v] == 0){
+                    cnt++;
+                    que.push(v);
+                }
+            }
+        }  
+        return cnt == n;
     }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<bool> visited(numCourses, false);
         int n = prerequisites.size();
-        vector<int> inRecursion(numCourses, false);
+        vector<int> indegree(numCourses, 0);
         unordered_map<int, vector<int>> adj;
         // adjacency list
         for(auto &preq : prerequisites){
             int u = preq[1];
             int v = preq[0];
             adj[u].push_back(v);
+            // calculating indegree
+            indegree[v]++;
         }
-        for(int u = 0; u < numCourses; u++){
-            if(!visited[u]){
-                if(DFS(adj, u,visited, inRecursion))
-                    return false;
-            }
-        }
-        
-        return true;
+        //  cycle is present , means not possible to complete all the courses.
+        return topoSortBFS(adj, numCourses, indegree);
     }
 };
