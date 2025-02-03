@@ -1,42 +1,40 @@
 class Solution {
 public:
-    void BFSTopologicalSort(unordered_map<int, vector<int>>& adj, int n, vector<int>& res,  vector<int>& indegree){
-        queue<int> que;
-        for(int i = 0; i<n; i++){
-            if(indegree[i] == 0){
-                que.push(i);
+    void DFSTopologicalSort(unordered_map<int, vector<int>>& adj, int u, vector<int>& res,  vector<bool>& visited, vector<bool>& inRecursion){
+        visited[u] = true;
+        inRecursion[u] = true;
+        for(int &v : adj[u]){
+            if(inRecursion[v] == true){
+                return;
+            }
+            if(!visited[v]){
+                DFSTopologicalSort(adj,v, res,visited , inRecursion);
             }
         }
-        while(!que.empty()){
-            int u = que.front();
-            que.pop();
-            res.push_back(u);
-            for(int &v : adj[u]){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    que.push(v);
-                }
-            }
-        }
+        res.push_back(u);
+        inRecursion[u] = false;
     }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         // adjacency list
         unordered_map<int, vector<int>> adj;
-        vector<int> indegree(numCourses, 0);
+        vector<int> res;
+        vector<bool> visited(numCourses, false);
+        vector<bool> inRecursion(numCourses, false);
+
         // edge (u ---> v)
         for(vector<int> &preq : prerequisites){
             int v = preq[0];
             int u = preq[1];
             adj[u].push_back(v);
-            indegree[v]++;
         }
-        vector<int> ans;
         // if topological sort is possible then we can complete all the courses otherwise not
-       
-        BFSTopologicalSort(adj, numCourses, ans, indegree);
-        
-        if(ans.size() == numCourses){
-           return ans;
+       for(int i = 0; i<numCourses; i++){
+            if(!visited[i])
+                DFSTopologicalSort(adj, i, res, visited, inRecursion);
+       }
+        reverse(begin(res), end(res));
+        if(res.size() == numCourses){
+           return res;
         }
         return {};
     }
