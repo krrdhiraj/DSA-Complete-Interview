@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Math
 |  |
 | ------- |
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Array
 |  |
 | ------- |
@@ -70,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
+## Counting
+|  |
+| ------- |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 <!---LeetCode Topics End-->
