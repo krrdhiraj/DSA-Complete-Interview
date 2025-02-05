@@ -1,20 +1,24 @@
 class Solution {
 public:
     bool areAlmostEqual(string s1, string s2) {
-        if(s1 == s2)
-            return true;
+
         int n = s1.length();
-        int cnt = 0;
+        int diff = 0;
+        int freq1[26] = {0};
+        int freq2[26] = {0};
         for(int i = 0; i<n; i++){
-            for(int j = n-1; j > i; j--){
-                swap(s1[i], s1[j]);
-                if(s1 == s2)
-                    return true;
-                swap(s1[j], s1[i]);
+            if(s1[i] != s2[i]){
+                diff++;
             }
-            if(s1 == s2)
-                return true;
+            if(diff > 2)
+                return false;
+            freq1[s1[i]-'a']++;
+            freq2[s2[i]-'a']++;
         }
-        return false;
+        for(int i = 0; i<26; i++){
+            if(freq1[i] != freq2[i])
+                return false;
+        }
+        return true;
     }
 };
