@@ -1,25 +1,24 @@
 class Solution {
 public:
-//  Better Approach(TC - {O(n^3) + O(nlong(n))})
+//  Best Approach(TC - {O(n^2) + O(nlong(n))})
 // SC - {O(n)}
     int tupleSameProduct(vector<int>& nums) {
         int n = nums.size();
         int tuple = 0;
         sort(begin(nums), end(nums));
+        unordered_map<int,int> mp;
+
         for(int i = 0; i<n; i++){
-            for(int j = n-1; j > i; j--){
-                int prdct = nums[i] * nums[j];
-                unordered_set<int> st;
-                for(int k = i+1; k < j; k++){
-                    if(prdct % nums[k] == 0){
-                        int d = prdct / nums[k];
-                        if(st.count(d)){
-                            tuple++;
-                        }
-                        st.insert(nums[k]);
-                    }
-                }
+            for(int j = i+1; j<n; j++){
+                int p = nums[i]*nums[j];
+                mp[p]++;
             }
+        }
+        // now count the tuples
+        for(auto &it : mp){
+            int prod = it.first;
+            int freq = it.second;
+            tuple += (freq*(freq-1))/2;
         }
         return tuple*8;
     }
