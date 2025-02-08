@@ -1,26 +1,26 @@
 class NumberContainers {
 public:
     unordered_map<int,int> idxToNum;
-    unordered_map<int,set<int>> numToIdx;
+    unordered_map<int, priority_queue<int, vector<int>, greater<int>>> numToIdx; // min-heap for storing the indices
     NumberContainers() {
         // already initialized
     }
     
     void change(int index, int number) {
-        if(idxToNum.count(index)){
-            int prevNum = idxToNum[index];
-            numToIdx[prevNum].erase(index);
-            if(numToIdx[prevNum].empty()){
-                numToIdx.erase(prevNum);
-            }
-        }
-        idxToNum[index] = number;
-        numToIdx[number].insert(index);
+        idxToNum[index] = number; // O(1)
+
+        numToIdx[number].push(index); //O(1)
     }
     
     int find(int number) {
-        if(numToIdx.count(number)){
-            return *numToIdx[number].begin();
+       
+        auto& pq = numToIdx[number];
+        while(!pq.empty()){ // size of pq = k => TC->{O(k * log(n))}
+            int index = pq.top(); // o(1)
+            if(idxToNum[index] == number){
+                return index;
+            }
+            pq.pop(); // O(log(n))
         }
         return -1;
     }
