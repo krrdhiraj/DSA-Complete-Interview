@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3429-special-array-i) |
