@@ -7,10 +7,9 @@ public:
             nums[i] = nums[i]-i;
         }
         unordered_map<int,int> mp;
-       
-        for(int j = 0; j<n; j++){
-            int goodPair = mp[nums[j]];
-            cntOfBadPairs += j - goodPair;
+        mp[nums[0]] = 1;
+        for(int j = 1; j<n; j++){
+            cntOfBadPairs += j - mp[nums[j]];
             mp[nums[j]]++;
         }
         return cntOfBadPairs;
