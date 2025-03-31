@@ -15,7 +15,7 @@ class Solution {
             end = Math.max(end, mp[(s.charAt(i)-'a')]);
             if( i == end){
                 ans.add(end - start + 1);
-                start = end + 1;
+                start = i + 1;
             }
             i++;
         }
