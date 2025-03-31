@@ -11,16 +11,14 @@ public:
         }
 
         int i = 0;
+        int start = 0, end = 0;
         while(i < n){
-            int end = mp[s[i]-'a'];
-
-            int j = i;
-            while(j < end){
-                end = max(end, mp[s[j]-'a']);
-                j++;
+            end = max(end, mp[s[i]-'a']);
+            if( i == end){
+                ans.push_back(end - start + 1);
+                start = end + 1;
             }
-            ans.push_back(j - i + 1);
-            i = j + 1;
+            i++;
         }
         return ans;
     }
