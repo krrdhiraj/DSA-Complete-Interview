@@ -10,9 +10,7 @@ public:
                     continue;
                 for(int k = j+1; k<n; k++){
                     long long tempVal =(long long)(nums[i]-nums[j])*nums[k];
-                    if(tempVal > val){
-                        val = tempVal;
-                    }
+                    val = max(val, tempVal);
                 }
             }
         }
