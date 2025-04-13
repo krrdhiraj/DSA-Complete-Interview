@@ -14,12 +14,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2448-count-number-of-bad-pairs) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
 ## Math
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
 | [2050-count-good-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2448-count-number-of-bad-pairs) |
+| [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
 ## String
 |  |
 | ------- |
@@ -143,4 +145,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2050-count-good-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2050-count-good-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
+## Enumeration
+|  |
+| ------- |
+| [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
 <!---LeetCode Topics End-->
