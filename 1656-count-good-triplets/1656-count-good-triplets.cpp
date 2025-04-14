@@ -6,8 +6,7 @@ public:
         for(int i = 0; i<n; i++){
             for(int j = i+1; j < n ; j++){
                  int diff1 = abs(arr[i]-arr[j]);
-                 if(diff1 > a)
-                    continue;
+                 if(diff1 <= a){
                 for(int k = j+1; k < n ; k++){
                     int diff2 = abs(arr[j]-arr[k]);
                     int diff3 = abs(arr[i] - arr[k]);
@@ -15,6 +14,7 @@ public:
                         ans++;
                     }
                 }
+                 }
             }
         }
         return ans;
