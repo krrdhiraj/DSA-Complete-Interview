@@ -1,24 +1,21 @@
 class Solution {
 public:
     string countAndSay(int n) {
-        vector<string> ans(n);
-        ans[0] = "1";
-
-        for(int i = 1; i<n; i++){
-            string s = ans[i-1];
-            int cnt = 1;
-            string temp = "";
-            for(int j = 1; j<s.length(); j++){
-                if(s[j] == s[j-1]){
-                    cnt++;
-                }else{
-                    temp += to_string(cnt) + s[j-1];
-                    cnt = 1;
-                }
-            }
-            temp += to_string(cnt) + s[s.length()-1];
-            ans[i] = temp;
+        if(n == 1){
+            return "1";
         }
-        return ans[n-1];
+
+        string say = countAndSay(n-1);
+        string ans = "";
+        for(int i = 0; i<say.length(); i++){
+            int cnt = 1;
+            char ch = say[i];
+            while(i < say.length()-1 && say[i] == say[i+1]){
+                cnt++;
+                i++;
+            }
+            ans += to_string(cnt) + ch;
+        }
+        return ans;
     }
 };
