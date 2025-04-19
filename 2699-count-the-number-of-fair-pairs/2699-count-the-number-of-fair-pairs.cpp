@@ -8,17 +8,27 @@ public:
 
         sort(begin(nums), end(nums)); // O(nlog(n))
 
-        for(int i = 0; i<n; i++){ // O(n)
-            int idx = lower_bound(begin(nums)+i+1, end(nums), lower - nums[i])-begin(nums); // O(long(n))
-            int numLessThanLower = idx - i -1;
-
-            idx = upper_bound(begin(nums) + i + 1, end(nums), upper-nums[i])- begin(nums); // O(log(n))
-
-            int numLessThanOrEqualToUpper = idx - i -1;
-
-            fairPairs += numLessThanOrEqualToUpper - numLessThanLower;
+        int left = 0, right = n-1;
+        long long countUpperPair = 0;
+        while(left < right){
+            if(nums[left] + nums[right] <= upper){
+                countUpperPair += (right - left);
+                left++;
+            }else{
+                right--;
+            }
         }
-
+        left = 0, right = n-1;
+        long long lowerPairCount = 0;
+        while(left < right){
+            if(nums[left] + nums[right] < lower){
+                lowerPairCount += (right - left);
+                left++;
+            }else{
+                right--;
+            }
+        }
+        fairPairs = countUpperPair - lowerPairCount;
         return fairPairs;
     }
 
