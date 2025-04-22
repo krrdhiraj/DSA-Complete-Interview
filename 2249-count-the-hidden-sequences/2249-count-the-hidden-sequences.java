@@ -9,7 +9,7 @@ class Solution {
             minVal = Math.min(minVal, curr);
             maxVal = Math.max(maxVal, curr);
 
-            if((upper - maxVal) - (lower-minVal)+1 <= 0){
+            if((upper - lower) - (maxVal-minVal)+1 <= 0){
                 return 0;
             }
         }
