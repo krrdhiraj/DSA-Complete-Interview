@@ -9,17 +9,19 @@ public:
         return sm;
     }
     int countLargestGroup(int n) {
-        int maxSize = 0;
-        int count = 0;
-        unordered_map<int,int> mp;
+        int mp[37];
+        int max = 0;
         for(int num = 1; num <= n; num++){
-            int sm = findDigitSum(num);
-            mp[sm]++;
-            if(mp[sm] == maxSize){
+            int sum = findDigitSum(num);
+            mp[sum]++;
+            if(mp[sum] > max){
+                max = mp[sum];
+            }
+        }
+        int count = 0;
+        for(int i = 0; i<37; i++){
+            if(mp[i] == max){
                 count++;
-            }else if(mp[sm] > maxSize){
-                maxSize = mp[sm];
-                count = 1;
             }
         }
         return count;
