@@ -9,14 +9,20 @@ public:
         int distinctNum = mp.size();
 
         int count = 0;
-        for(int i = 0; i<n; i++){
-            mp.clear();
-            for(int j = i; j<n; j++){
-                mp[nums[j]]++;
-                if(mp.size() == distinctNum){
-                    count++;
+        mp.clear();
+        int i = 0, j = 0;
+        while(j < n){
+            mp[nums[j]]++;
+
+            while(mp.size() == distinctNum ){
+                count += (n-j);
+                mp[nums[i]]--;
+                if(mp[nums[i]] == 0){
+                    mp.erase(nums[i]);
                 }
+                i++;
             }
+            j++;
         }
         return count;
     }
