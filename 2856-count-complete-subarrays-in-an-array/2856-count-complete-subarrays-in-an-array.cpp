@@ -3,13 +3,13 @@ public:
     int countCompleteSubarrays(vector<int>& nums) {
         int n = nums.size();
         unordered_map<int,int> mp;
+        unordered_set<int> st;
         for(int num : nums){
-            mp[num]++;
+            st.insert(num);
         }
-        int distinctNum = mp.size();
+        int distinctNum = st.size();
 
         int count = 0;
-        mp.clear();
         int i = 0, j = 0;
         while(j < n){
             mp[nums[j]]++;
