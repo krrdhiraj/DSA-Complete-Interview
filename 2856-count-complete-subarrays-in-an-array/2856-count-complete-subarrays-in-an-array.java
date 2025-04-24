@@ -2,13 +2,12 @@ class Solution {
     public int countCompleteSubarrays(int[] nums) {
         int n = nums.length;
         Map<Integer,Integer> mp = new HashMap<>();
-        Set<Integer> st = new HashSet<>();
-
         for(int num : nums){
-            st.add(num);
+            mp.put(num, mp.getOrDefault(num,0)+1);
         }
-        int distinct = st.size();
+        int distinct = mp.size();
         int count = 0;
+        mp.clear();
         int i = 0, j = 0;
         while(j < n){
             mp.put(nums[j],mp.getOrDefault(nums[j],0)+1);
