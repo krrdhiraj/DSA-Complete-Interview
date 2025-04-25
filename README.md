@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [2249-count-the-hidden-sequences](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2249-count-the-hidden-sequences) |
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
 ## Depth-First Search
