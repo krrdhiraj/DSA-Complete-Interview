@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2915-count-of-interesting-subarrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
 ## Math
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2915-count-of-interesting-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2915-count-of-interesting-subarrays) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [2249-count-the-hidden-sequences](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2249-count-the-hidden-sequences) |
+| [2915-count-of-interesting-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2915-count-of-interesting-subarrays) |
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
 ## Depth-First Search
 |  |
