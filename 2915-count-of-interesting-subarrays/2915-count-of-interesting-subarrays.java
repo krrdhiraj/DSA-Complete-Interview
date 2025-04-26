@@ -14,9 +14,7 @@ class Solution {
             int r1 = (int)sm % modulo;
             int r2 = (r1 - k + modulo) % modulo;
 
-            if(mp.containsKey(r2)){
-                res += mp.get(r2);
-            }
+            res += mp.getOrDefault(r2, 0L);
             mp.put((int)r1, mp.getOrDefault(r1,0L)+1);
         }
         return res;
