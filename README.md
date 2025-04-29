@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -185,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2626-count-the-number-of-good-subarrays) |
