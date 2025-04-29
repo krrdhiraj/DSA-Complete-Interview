@@ -3,10 +3,8 @@ class Solution {
         int n = nums.length;
         long ans = 0;
         int i = 0, j = 0;
-        int maxEle = 0;
-        for(int num : nums){
-            maxEle = Math.max(maxEle, num);
-        }
+        int maxEle = Arrays.stream(nums).max().getAsInt();
+       
         int cntOfMax = 0;
         while(j < n){
             if(nums[j] == maxEle){
