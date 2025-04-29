@@ -4,10 +4,8 @@ public:
         int n = nums.size();
         long long ans = 0;
         int i = 0, j = 0;
-        int maxEle = 0;
-        for(int num : nums){
-            maxEle = max(maxEle, num);
-        }
+        int maxEle = *max_element(begin(nums), end(nums));
+        
         int cntOfMax = 0;
         while(j < n){
             if(nums[j] == maxEle){
