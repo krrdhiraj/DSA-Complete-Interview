@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
 | [2050-count-good-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2448-count-number-of-bad-pairs) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2058-concatenation-of-array) |
