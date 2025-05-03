@@ -1,22 +1,27 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string temp = "";
-        for(char ch : s){
-            if(ch >= 65 && ch <= 90 ){
-                temp += (char)tolower(ch);
-            }else if(ch >= 97 && ch <= 122 || ch >= 48 && ch <= 57){
-                temp += ch;
-            }else{
+        int n = s.length();
+        if( n == 0)
+            return true;
+        
+        int i = 0, j = n-1;
+        while(i <= j){
+            char firstCh = s[i];
+            char lastCh = s[j];
+            if(!isalnum(firstCh)){
+                i++;
                 continue;
             }
-        }
-        int i = 0, j = temp.length()-1;
-        while(i < j){
-            if(temp[i] != temp[j]){
-                return false;
+            if(!isalnum(lastCh)){
+                j--;
+                continue;
             }
-            i++; j--;
+            if(tolower(s[i]) != tolower(s[j])){
+                return false;
+            }else{
+                i++;j--;
+            }
         }
         return true;
     }
