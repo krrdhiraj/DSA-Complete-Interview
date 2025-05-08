@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Dynamic Programming
 |  |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Topological Sort
 |  |
 | ------- |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2434-design-a-number-container-system) |
 | [2681-put-marbles-in-bags](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2681-put-marbles-in-bags) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Ordered Set
 |  |
 | ------- |
@@ -216,4 +219,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2527-count-subarrays-with-fixed-bounds) |
+## Matrix
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+## Shortest Path
+|  |
+| ------- |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 <!---LeetCode Topics End-->
