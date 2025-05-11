@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
+| [1293-three-consecutive-odds](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1293-three-consecutive-odds) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
