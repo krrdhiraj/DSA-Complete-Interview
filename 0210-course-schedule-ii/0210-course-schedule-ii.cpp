@@ -1,35 +1,34 @@
 class Solution {
 public:
+    void DFS(unordered_map<int, vector<int>> &adj, int u, vector<bool> &visited, stack<int> &st){
+        visited[u] = true;
+    
+        for(int &v : adj[u]){
+            if(!visited[v])
+                DFS(adj, v, visited, st);
+        }
+        st.push(u);
+    }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<int> res;
         unordered_map<int, vector<int>> adj;
-
-         vector<int> indegree(numCourses, 0);
+        vector<bool> visited(numCourses, false);
        // edges(u ---> v)
         for(auto &preq : prerequisites){
             int u = preq[1];
             int v = preq[0];
             adj[u].push_back(v);
-            indegree[v]++;
         }
-        
-        queue<int> que;
-        for(int i = 0; i<numCourses; i++){
-            if(indegree[i] == 0){
-                que.push(i);
+        stack<int> st;
+        for(int u = 0; u< numCourses; u++){
+            if(!visited[u]){
+                DFS(adj, u, visited, st);
             }
         }
 
-        while(!que.empty()){
-            int u = que.front();
-            que.pop();
-            res.push_back(u);
-            for(int &v : adj[u]){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    que.push(v);
-                }
-            }
+        while(!st.empty()){
+            res.push_back(st.top());
+            st.pop();
         }
         if(res.size() != numCourses){
             res.clear();
