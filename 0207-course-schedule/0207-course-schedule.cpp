@@ -4,7 +4,8 @@ public:
         visited[u] = true;
         inRecur[u] = true;
         for(int &v : adj[u]){
-            if(!visited[v] && DFS(adj, v, visited, inRecur)){
+            if(!visited[v]){
+             if(DFS(adj, v, visited, inRecur))
                 return true;
             }else if(inRecur[v]){
                 return true;
