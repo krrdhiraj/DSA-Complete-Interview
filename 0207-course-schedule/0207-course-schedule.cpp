@@ -1,38 +1,37 @@
 class Solution {
 public:
-    
+    bool DFS(unordered_map<int, vector<int>> &adj, int u, vector<bool> &visited, vector<bool> &inRecur){
+        visited[u] = true;
+        inRecur[u] = true;
+        for(int &v : adj[u]){
+            if(!visited[v] && DFS(adj, v, visited, inRecur)){
+                return true;
+            }else if(inRecur[v]){
+                return true;
+            }
+        }
+        inRecur[u] = false;
+        return false;
+    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> indegree(numCourses,0);
+        vector<bool> visited(numCourses,false);
+        vector<bool> inRecur(numCourses, false);
         unordered_map<int, vector<int>> adj;
         
         for(auto &preq : prerequisites){
             int u = preq[1];
             int v = preq[0];
             adj[u].push_back(v);
-            indegree[v]++;
+            
         }
-        
-        queue<int> que;
         int cnt = 0;
-        for(int i = 0; i<numCourses; i++){
-            if(indegree[i] == 0){
-                que.push(i);
-                cnt++;
+        for(int u = 0; u<numCourses; u++){
+            if(!visited[u] ){
+               if(DFS(adj, u, visited, inRecur)){
+                return false;
+               }
             }
         }
-        while(!que.empty()){
-            int u = que.front();
-            que.pop();
-
-            for(int &v : adj[u]){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    cnt++;
-                    que.push(v);
-                }
-            }
-        }
-
-        return cnt == numCourses;
+        return true;
     }
 };
