@@ -1,40 +1,50 @@
 class Solution {
 public:
-    void DFS(unordered_map<int, vector<int>> &adj, int u, vector<bool> &visited,vector<bool>& inRecursion, vector<int> &st){
+    bool hasCycle = false;
+    void DFS(unordered_map<int, vector<int>> &adj, int u, vector<bool> &visited, vector<bool> &inRecursion, stack<int> &st){
         visited[u] = true;
         inRecursion[u] = true;
+
         for(int &v : adj[u]){
-            if(inRecursion[v])
-                return ;
-            if(!visited[v])
-                DFS(adj, v, visited,inRecursion, st);
+            if(inRecursion[v] == true){
+                hasCycle = true;
+                return;
+            }
+            if(!visited[v]){
+                DFS(adj, v, visited, inRecursion, st);
+            }
         }
-        st.push_back(u);
+        st.push(u);
         inRecursion[u] = false;
     }
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int> res;
         unordered_map<int, vector<int>> adj;
-
-        vector<bool> inRecursion(numCourses, false);
         vector<bool> visited(numCourses, false);
-       // edges(u ---> v)
-        for(auto &preq : prerequisites){
-            int u = preq[1];
-            int v = preq[0];
+        vector<bool> inRecursion(numCourses, false);
+        vector<int> res;
+        for(auto &vec : prerequisites){
+            int u = vec[1];
+            int v = vec[0];
+            // u ---> v
             adj[u].push_back(v);
         }
-        for(int u = 0; u< numCourses; u++){
+        stack<int> st;
+        hasCycle = false;
+        for(int u = 0; u<numCourses; u++){
             if(!visited[u]){
-                DFS(adj, u, visited,inRecursion, res);
+                DFS(adj, u, visited, inRecursion, st);
             }
         }
-        reverse(begin(res), end(res));
-       
-        if(res.size() != numCourses){
-            res.clear();
-        }
-        return res;
         
+        if(hasCycle){
+            return {};
+        }
+    
+        while(!st.empty()){
+            res.push_back(st.top());
+            st.pop();
+        }
+
+        return res;
     }
 };
