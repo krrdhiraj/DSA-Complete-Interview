@@ -1,20 +1,26 @@
 class Solution {
 public:
     int currColor = 1;
-    bool DFS(vector<vector<int>>& adj, int u, vector<int>& color){
+    bool BFS(vector<vector<int>>& adj, int u, vector<int>& color){
+       
+        queue<int> que;
+        que.push(u);
         color[u] = currColor;
-
-        for(int &v : adj[u]){
-            if(color[v] == color[u]){
-                return false;
-            }
-            if(color[v] == -1){
-                currColor = 1 - color[u];
-                if(DFS(adj, v, color) == false){
+        while(!que.empty()){
+            int u = que.front();
+            que.pop();
+            
+            for(int &v : adj[u]){
+                if(color[v] == color[u]){
                     return false;
+                }
+                if(color[v] == -1){
+                    color[v] = 1 - color[u];
+                    que.push(v);
                 }
             }
         }
+
         return true;
 }
     bool isBipartite(vector<vector<int>>& adj) {
@@ -24,7 +30,7 @@ public:
 
         for(int u = 0; u<n; u++){
             if(color[u] == -1){
-                if(DFS(adj, u, color) == false)
+                if(BFS(adj, u, color) == false)
                     return false;
             }
         }
