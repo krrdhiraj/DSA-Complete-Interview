@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
+| [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1293-three-consecutive-odds](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1293-three-consecutive-odds) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
+| [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 ## Graph
 |  |
 | ------- |
@@ -143,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
+| [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
