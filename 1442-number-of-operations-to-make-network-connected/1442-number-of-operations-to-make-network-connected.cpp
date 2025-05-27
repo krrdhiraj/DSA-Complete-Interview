@@ -32,16 +32,11 @@ public:
             parent[i] = i;
         }
         for(auto &it : connections){
-            int first = it[0];
-            int second = it[1];
+            int parent_first = find(it[0]);
+            int parent_second = find(it[1]);
 
-            int parent_first = find(first);
-            int parent_second = find(second);
-
-            if(parent_first == parent_second){
-                continue;
-            }else{
-                Union(first, second);
+            if(parent_first != parent_second){
+                Union(it[0], it[1]);
                 n--;
             }
         }
