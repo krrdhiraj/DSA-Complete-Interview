@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -133,12 +134,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Union Find
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Graph
 |  |
 | ------- |
@@ -147,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
