@@ -4,23 +4,14 @@ public:
         int i = 0, j = 0;
         int n = nums.size();
         int sum = 0, cnt = 0;
-        int cntZeros = 0;
-        while(j < n){
-            sum += nums[j];
-            
-            while(i < j && (nums[i] == 0 || sum > goal)){
-                if(nums[i] == 0){
-                    cntZeros += 1;
-                }else{
-                    cntZeros = 0;
-                }
-                sum -= nums[i];
-                i++;
-            }
-            if(sum == goal){
-                cnt += 1 + cntZeros;
-            }
-            j++;
+        unordered_map<int,int> mp;
+        mp[sum] = 1;
+        for(int i = 0; i<n; i++){
+            sum += nums[i];
+
+            int remaining = sum - goal;
+            cnt += mp[remaining];
+            mp[remaining]++;
         }
         return cnt ;
     }
