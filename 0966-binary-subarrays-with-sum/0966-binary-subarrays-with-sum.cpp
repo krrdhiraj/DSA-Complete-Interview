@@ -10,8 +10,9 @@ public:
             sum += nums[i];
 
             int remaining = sum - goal;
-            cnt += mp[remaining];
-            mp[remaining]++;
+            if(mp.find(remaining) != mp.end())
+                cnt += mp[remaining];
+            mp[sum]++;
         }
         return cnt ;
     }
