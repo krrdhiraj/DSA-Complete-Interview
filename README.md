@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
+| [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0966-binary-subarrays-with-sum) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0038-count-and-say) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
 | [1364-tuple-with-same-product](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Monotonic Queue
 |  |
