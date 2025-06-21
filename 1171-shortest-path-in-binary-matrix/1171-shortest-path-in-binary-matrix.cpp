@@ -1,5 +1,6 @@
 class Solution {
 public:
+    typedef pair<int, pair<int,int>> P;
     vector<vector<int>> directions{{0,1}, {0,-1}, {-1,0}, {1,0}, {-1,-1}, {1,-1}, {-1,1}, {1,1}};
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int m = grid.size();
@@ -11,38 +12,35 @@ public:
         auto isSafe = [&](int x_, int y_){
             return x_>=0 && x_ < m && y_ >= 0 && y_ < n;
         };
-        
-        queue<pair<int,int>> que;
-        que.push({0,0});
-        grid[0][0] = 1;
 
-        int pathLen = 0;
-        while(!que.empty()){
-            int sz = que.size();
+        priority_queue<P, vector<P>, greater<P>> pq;
+        vector<vector<int>> res(m, vector<int>(n, INT_MAX));
 
-            while(sz--){
-                auto p = que.front();
-                que.pop();
+        res[0][0] = 1;
+        pq.push({1, {0,0}});
 
-                int x = p.first;
-                int y = p.second;
+        while(!pq.empty()){
+            int d = pq.top().first;
+            auto node = pq.top().second;
+            pq.pop();
 
-                if( x == m-1 && y == n-1)
-                    return pathLen+1;
+            int x = node.first;
+            int y = node.second;
 
-                for(auto &dir : directions){
-                    int x_= x + dir[0];
-                    int y_ = y + dir[1];
+            for(auto &dir : directions){
+                int x_ = dir[0]+x;
+                int y_= dir[1] + y;
 
-                    if(isSafe(x_,y_) && grid[x_][y_] == 0){
-                        que.push({x_,y_});
-                        grid[x_][y_] = 1;
-                    }
+                int dist = 1;
+
+                if(isSafe(x_, y_) && grid[x_][y_] == 0 && d + dist < res[x_][y_]){
+                    res[x_][y_] = d + dist;
+                    pq.push({d+dist, {x_, y_}});
                 }
             }
-            pathLen += 1;
         }
-        return -1;
-
+        if(res[m-1][n-1] == INT_MAX)
+            return -1;
+        return res[m-1][n-1];
     }
 };
