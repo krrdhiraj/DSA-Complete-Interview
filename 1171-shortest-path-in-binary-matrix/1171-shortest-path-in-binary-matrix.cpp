@@ -10,15 +10,15 @@ public:
             return -1;
         }
     
-        priority_queue<P, vector<P>, greater<P>> pq;
+        queue<P> pq;
         vector<vector<int>> res(m, vector<int>(n, INT_MAX));
 
         res[0][0] = 1;
         pq.push({1, {0,0}});
 
         while(!pq.empty()){
-            int d = pq.top().first;
-            auto node = pq.top().second;
+            int d = pq.front().first;
+            auto node = pq.front().second;
             pq.pop();
 
             int x = node.first;
