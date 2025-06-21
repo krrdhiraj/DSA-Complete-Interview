@@ -8,6 +8,10 @@ public:
         if(m == 0 || n == 0 || grid[0][0] != 0){
             return -1;
         }
+        auto isSafe = [&](int x_, int y_){
+            return x_>=0 && x_ < m && y_ >= 0 && y_ < n;
+        };
+        
         queue<pair<int,int>> que;
         que.push({0,0});
         grid[0][0] = 1;
@@ -30,7 +34,7 @@ public:
                     int x_= x + dir[0];
                     int y_ = y + dir[1];
 
-                    if(x_>=0 && x_ < m && y_ >= 0 && y_ < n && grid[x_][y_] == 0){
+                    if(isSafe(x_,y_) && grid[x_][y_] == 0){
                         que.push({x_,y_});
                         grid[x_][y_] = 1;
                     }
