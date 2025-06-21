@@ -9,10 +9,7 @@ public:
         if(m == 0 || n == 0 || grid[0][0] != 0){
             return -1;
         }
-        auto isSafe = [&](int x_, int y_){
-            return x_>=0 && x_ < m && y_ >= 0 && y_ < n;
-        };
-
+    
         priority_queue<P, vector<P>, greater<P>> pq;
         vector<vector<int>> res(m, vector<int>(n, INT_MAX));
 
@@ -33,7 +30,7 @@ public:
 
                 int dist = 1;
 
-                if(isSafe(x_, y_) && grid[x_][y_] == 0 && d + dist < res[x_][y_]){
+                if((x_ >= 0 && x_ < m && y_ >= 0 && y_ < n) && grid[x_][y_] == 0 && d + dist < res[x_][y_]){
                     res[x_][y_] = d + dist;
                     pq.push({d+dist, {x_, y_}});
                 }
