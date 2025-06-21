@@ -11,15 +11,17 @@ public:
             adj[u].push_back({v, w});
         }
         // by using Dijkastra's Algo will find the min time taken to reach all nodes
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+        // priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+        queue<pair<int,int>> pq;
       
         vector<int> res(n+1, INT_MAX);
         res[k] = 0;
         pq.push({k, 0}); // {node, time}
 
         while(!pq.empty()){
-            int node = pq.top().first;
-            int dist = pq.top().second;
+            pair<int,int> p = pq.front();
+            int node =p.first;
+            int dist = p.second;
             pq.pop();
 
             for(auto &it : adj[node]){
