@@ -2,7 +2,7 @@ class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         unordered_map<int, vector<pair<int,int>>> adj;
-
+        // adj list created
         for(auto &time : times){
             int u = time[0];
             int v = time[1];
@@ -10,33 +10,33 @@ public:
 
             adj[u].push_back({v, w});
         }
-        priority_queue<pair<int,int>, vector<pair<int,int>> , greater<pair<int,int>>> pq;
-
-        vector<int> result(n+1, INT_MAX);
-        result[k] = 0;
-        pq.push({0, k});
+        // by using Dijkastra's Algo will find the min time taken to reach all nodes
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+      
+        vector<int> res(n+1, INT_MAX);
+        res[k] = 0;
+        pq.push({k, 0}); // {node, time}
 
         while(!pq.empty()){
-            int dist = pq.top().first;
-            int node = pq.top().second;
+            int node = pq.top().first;
+            int dist = pq.top().second;
             pq.pop();
 
             for(auto &it : adj[node]){
-                int adjNode = it.first;
+                int u = it.first;
                 int d = it.second;
 
-                if(d + dist < result[adjNode]){
-                    result[adjNode] = d + dist;
-                    pq.push({d+dist, adjNode});
+                if(d + dist < res[u]){
+                    res[u] = d + dist;
+                    pq.push({u,d+dist});
                 }
             }
         }
-        int ans = INT_MIN;
-        for(int i = 1; i<=n; i++){
-            if(result[i] == INT_MAX)    
-                return -1;
-            ans = max(ans, result[i]);
+        int ans = -1;
+        for(int i = 1; i<n+1; i++){
+
+            ans = max(ans, res[i]);
         }
-        return ans;
+        return ans == INT_MAX? -1 : ans;
     }
 };
