@@ -4,21 +4,17 @@ class Solution {
         int t = n%k == 0? n/k : n/k + 1;
         String[] ans = new String[t];
         int i = 0, j = 0;
-        while( i+k <= n){
-            String temp = s.substring(i, i+k);
-            ans[j++] = temp;
-            i += k;
-        }
-        if(i < n){
-            int sz = k - (n-i);
-            
-            String temp = s.substring(i);
-            while(sz > 0){
-                temp += fill;
-                sz--;
+        while( i < n){
+            int end = Math.min(n, i+k);
+            StringBuilder sb = new StringBuilder(s.substring(i, end));
+            while(sb.length() < k){
+                sb.append(fill);
             }
-            ans[j] = temp;
+            ans[j++] = sb.toString();
+            i += k;
+
         }
+        
         return ans;
     }
 }
