@@ -7,6 +7,10 @@ public:
         int m = heights.size();
         int n = heights[0].size();
 
+        auto isSafe = [&](int x , int y){
+            return x>=0 && x < m && y >= 0 && y < n;
+        };
+
         vector<vector<int>> res(m, vector<int>(n, INT_MAX));
 
         priority_queue<P, vector<P>, greater<P>> pq;
@@ -27,8 +31,7 @@ public:
 		int x_   = x + dir[0];
 		int y_   = y + dir[1];
 
-		if(x_>=0 && x_<m && y_>=0 && y_<n) {
-
+		if(isSafe(x_, y_)) {
 		    int newDiff = max(diff, abs(heights[x][y] - heights[x_][y_]));
 		    if(res[x_][y_] > newDiff) {
 			res[x_][y_] = newDiff;
