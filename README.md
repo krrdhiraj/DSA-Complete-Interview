@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Array
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2058-concatenation-of-array) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Design
 |  |
