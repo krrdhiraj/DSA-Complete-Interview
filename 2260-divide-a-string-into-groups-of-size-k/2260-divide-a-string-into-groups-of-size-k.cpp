@@ -4,19 +4,18 @@ public:
         int n = s.size();
         vector<string> ans;
         int i = 0;
-        while( i+k <= n){
-            string temp = s.substr(i, k);
+        while( i < n){
+            int j = (i+k - 1) >= n ? n-1 : (i+k - 1);
+            string temp = s.substr(i, j-i+1);
+
+            if(j-i + 1 < k){
+                int remLen = k - (j-i+1);
+                temp += string(remLen, fill);
+            }
             ans.push_back(temp);
             i += k;
         }
-        if(i < n){
-            int sz = k - (n-i);
-            string temp = s.substr(i);
-            while(sz--){
-                temp += fill;
-            }
-            ans.push_back(temp);
-        }
+        
         return ans;
     }
 };
