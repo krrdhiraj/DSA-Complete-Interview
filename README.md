@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2058-concatenation-of-array) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3427-special-array-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3427-special-array-ii) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Union Find
 |  |
@@ -165,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Graph
 |  |
@@ -208,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0744-network-delay-time) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2434-design-a-number-container-system) |
 | [2681-put-marbles-in-bags](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2681-put-marbles-in-bags) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -288,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1171-shortest-path-in-binary-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
