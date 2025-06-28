@@ -5,23 +5,20 @@ public:
         vector<int> ans;
         int n = nums.size();
 
-        deque<int> dq;
+        priority_queue<pair<int,int>> pq; // {nums[i], i}
 
         for(int i = 0; i<n; i++){
-            // new ke liye space banaoo
-            while(!dq.empty() && dq.front() <= i-k){
-                dq.pop_front();
+            
+            while(!pq.empty() && pq.top().second <= i-k){
+                pq.pop();
             }
-            //step-2 : chhote element ko remove krr do
-            while(!dq.empty() && nums[i] > nums[dq.back()]){
-                 dq.pop_back();
-            }
+            
             // step 3 : push new element into dq
-            dq.push_back(i);
+            pq.push({nums[i], i});
 
             // step - 4 : window pura hua ans nikalo
             if(i >= k-1){
-                ans.push_back(nums[dq.front()]);
+                ans.push_back(nums[pq.top().second]);
             }
         }
         return ans;
