@@ -8,15 +8,18 @@ class Solution {
         while(j < n){
             char ch = s.charAt(j);
             mp.put(ch, mp.getOrDefault(ch,0)+1);
-            if(mp.get(ch) >= 1){
-                while(i < j && j-i+1 > mp.size()){
+            if(mp.size() == j-i+1){
+                ans = Math.max(ans, j-i+1);
+                j++;
+            }
+            else if(mp.size() < j-i+1){
+                while(j-i+1 > mp.size()){
                     mp.put(s.charAt(i), mp.get(s.charAt(i))-1);
                     if(mp.get(s.charAt(i)) == 0){
                         mp.remove(s.charAt(i));
                     }
                     i++;
                 }
-                ans = Math.max(ans, j-i+1);
                 j++;
             }
         }
