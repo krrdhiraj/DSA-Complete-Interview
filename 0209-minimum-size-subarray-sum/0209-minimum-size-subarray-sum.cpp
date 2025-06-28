@@ -9,7 +9,7 @@ public:
         while(j < n){
             sm += nums[j];
             if(sm >= target){
-                while( sm >= target){
+                while( i<= j && sm >= target){
                     ans = min(ans, j-i+1);
                     sm -= nums[i];
                     i++;
