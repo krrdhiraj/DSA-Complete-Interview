@@ -1,43 +1,56 @@
 class Solution {
     public:
-    int primAlgo(vector<vector<pair<int,int>>> &adj, int v){
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
 
-        vector<bool> inMst(v, false);
+    vector<int> parent;
+    vector<int> rank;
+    int find(int x){
+        if(x == parent[x])
+            return x;
 
-        int sm = 0; // calculate min sum
+        return parent[x] = find(parent[x]);
+    }
 
-        pq.push({0, 0});
+    void Union(int x,  int y){
+        int parent_x = find(x);
+        int parent_y = find(y);
 
-        while(!pq.empty()){
-            int wt = pq.top().first;
-            int node = pq.top().second;
-            pq.pop();
+        if(parent_x == parent_y)
+            return ;
+        if(rank[parent_x] > rank[parent_y]){
+            parent[parent_y] = parent_x;
+        }else if(rank[parent_x] < rank[parent_y]){
+            parent[parent_x] = parent_y;
+        }else{
+            parent[parent_x] = parent_y;
+            rank[parent_y]++;
+        }
+    }
+    int kruskal(vector<vector<int>> &adj){
+        int sm = 0;
+        for(auto &temp : adj){
+            int u = temp[0];
+            int v = temp[1];
+            int wt = temp[2];
 
-            if(inMst[node] == true)
-                continue;
+            int parent_u = find(u);
+            int parent_v = find(v);
 
-            inMst[node] = true;
-
-            sm += wt;
-
-            for(auto &vec : adj[node]){
-                int neighbor_wt = vec.second;
-                int neighbor_node = vec.first;
-
-                if(inMst[neighbor_node] == false){
-                    pq.push({neighbor_wt, neighbor_node});
-                }
+            if(parent_u != parent_v){
+                sm += wt;
+                Union(u,v);
             }
-            
         }
         return sm;
     }
     int minCostConnectPoints(vector<vector<int>> &points) {
         int n = points.size();
+
+        parent.resize(n);
+        rank.resize(n, 0);
         // making adj
-        vector<vector<pair<int,int>>> adj(n);
+        vector<vector<int>> adj;
         for(int i = 0; i<n; i++){
+            parent[i] = i;
             for(int j = i+1; j<n; j++){
                 int x1 = points[i][0];
                 int y1 = points[i][1];
@@ -47,11 +60,15 @@ class Solution {
 
                 int dist = abs(x1-x2) + abs(y1-y2);
 
-                adj[i].push_back({j, dist});
-                adj[j].push_back({i, dist});
+                adj.push_back({i, j, dist});
+                adj.push_back({j, i, dist});
             }
         }
+        auto comparator = [&](auto &v1, auto &v2){
+            return v1[2] < v2[2];
+        };
+        sort(begin(adj), end(adj), comparator);
 
-        return primAlgo(adj, n);
+        return kruskal(adj);
     }
 };
