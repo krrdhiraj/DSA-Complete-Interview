@@ -4,6 +4,7 @@ class Solution {
         if(n == 0)
             return "";
         
+        Arrays.sort(strs);
         String common = strs[0];
         for(int i = 0; i<common.length(); i++){
             for(int j = 1; j<n; j++){
