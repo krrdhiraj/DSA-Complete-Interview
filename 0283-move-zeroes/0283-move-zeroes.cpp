@@ -10,8 +10,10 @@ public:
                 break;
             }
         }
+        if(zeroIdx == -1)
+            return;
         for(int i = zeroIdx+1; i<n; i++){
-            if(nums[i] != 0 && zeroIdx != -1){
+            if(nums[i] != 0){
                 swap(nums[i], nums[zeroIdx]);
                 zeroIdx++;
             }
