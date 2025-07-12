@@ -11,7 +11,7 @@ public:
             }
         }
         for(int i = zeroIdx+1; i<n; i++){
-            if(nums[i] != 0){
+            if(nums[i] != 0 && zeroIdx != -1){
                 swap(nums[i], nums[zeroIdx]);
                 zeroIdx++;
             }
