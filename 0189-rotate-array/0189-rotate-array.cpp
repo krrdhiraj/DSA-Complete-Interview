@@ -4,13 +4,13 @@ public:
         int n = nums.size();
         if(n < 2)
             return ;
-        k %= n;
+        k = k % n;
         while(k--){
-            int temp = nums[0];
-            for(int  i = n-1; i>0; i--){
-                nums[(i+1)%n] = nums[i];
+            int temp = nums[n-1];
+            for(int  i = n-2; i>=0; i--){
+                nums[i+1] = nums[i];
             }
-            nums[1] = temp;
+            nums[0] = temp;
         }
     }
 };
