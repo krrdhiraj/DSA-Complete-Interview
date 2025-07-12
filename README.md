@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0239-sliding-window-maximum) |
+| [0283-move-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0283-move-zeroes) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
