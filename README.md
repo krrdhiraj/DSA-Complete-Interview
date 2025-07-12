@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
+| [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
+| [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0239-sliding-window-maximum) |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
