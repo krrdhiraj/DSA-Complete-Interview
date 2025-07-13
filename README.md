@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0136-single-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Trie
