@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
+| [0485-max-consecutive-ones](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0485-max-consecutive-ones) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
