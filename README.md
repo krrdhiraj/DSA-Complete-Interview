@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
+| [0560-subarray-sum-equals-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0560-subarray-sum-equals-k) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0966-binary-subarrays-with-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0966-binary-subarrays-with-sum) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
