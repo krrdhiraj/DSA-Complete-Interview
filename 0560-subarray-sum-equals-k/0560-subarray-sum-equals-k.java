@@ -8,7 +8,10 @@ class Solution {
         int cummSm = 0;
         for(int i = 0; i<n; i++){
            cummSm += nums[i];
-           ans += mp.getOrDefault(cummSm-k,0);
+
+           if(mp.containsKey(cummSm-k)){
+             ans += mp.get(cummSm-k);
+           }
            mp.put(cummSm, mp.getOrDefault(cummSm, 0) + 1);
         }
         return ans;
