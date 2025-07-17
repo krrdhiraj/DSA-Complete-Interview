@@ -6,9 +6,7 @@ class Solution {
         for(int i = 0; i<n ;i++){
             currSm += nums[i];
 
-            if(currSm > sm){
-                sm = currSm;
-            }
+            sm = Math.max(currSm, sm);
             if(currSm < 0){
                 currSm = 0;
             }
