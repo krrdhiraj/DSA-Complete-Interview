@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0038-count-and-say) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
