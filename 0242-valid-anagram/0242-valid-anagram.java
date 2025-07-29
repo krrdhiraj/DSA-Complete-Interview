@@ -10,6 +10,10 @@ class Solution {
                 return false;
             }
         }
+        for(int i = 0; i<26; i++){
+            if(mp[i] != 0)
+                return false;
+        }
         return true;
     }
 }
