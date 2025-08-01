@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1646-kth-missing-positive-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
 | [1706-min-cost-to-connect-all-points](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0792-binary-search) |
+| [1646-kth-missing-positive-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
