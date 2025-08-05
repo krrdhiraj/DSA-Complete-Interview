@@ -5,7 +5,7 @@ class Solution {
         int low = 0, h = n-1;
         while(low < h){
             int mid = (low + h)/2;
-            int rightSz = n-mid-1;
+            int rightSz = h-mid;
 
             if(nums[mid] == nums[mid+1]){
                 rightSz -= 1;
@@ -16,12 +16,12 @@ class Solution {
                 }
             }else{
                 if(rightSz % 2 == 0){ // right side me even element hai, single element is possible
-                    h = mid-1;
+                    h = mid;
                 }else{
                     low = mid+1;
                 }
             }
         }
-        return nums[low];
+        return nums[h];
     }
 }
