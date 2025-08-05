@@ -22,6 +22,6 @@ class Solution {
                 }
             }
         }
-        return nums[h];
+        return nums[low];
     }
 }
