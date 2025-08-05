@@ -1,9 +1,27 @@
 class Solution {
     public int singleNonDuplicate(int[] nums) {
-        int xr = 0;
-        for(int val : nums){
-            xr ^= val;
+        int n = nums.length;
+
+        int low = 0, h = n-1;
+        while(low < h){
+            int mid = (low + h)/2;
+            int rightSz = n-mid-1;
+
+            if(nums[mid] == nums[mid+1]){
+                rightSz -= 1;
+                if((rightSz % 2) == 0){ // right side me even element hai, single element not possible
+                    h = mid-1;
+                }else{
+                    low = mid+2;
+                }
+            }else{
+                if(rightSz % 2 == 0){ // right side me even element hai, single element is possible
+                    h = mid-1;
+                }else{
+                    low = mid+1;
+                }
+            }
         }
-        return xr;
+        return nums[low];
     }
 }
