@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0014-longest-common-prefix) |
+| [0022-generate-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0038-count-and-say) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0205-isomorphic-strings) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0046-permutations) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
