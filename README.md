@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0493-reverse-pairs) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
+| [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [2262-solving-questions-with-brainpower](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2262-solving-questions-with-brainpower) |
@@ -217,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
@@ -235,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
+| [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0966-binary-subarrays-with-sum) |
@@ -370,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0768-partition-labels](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0768-partition-labels) |
 | [2032-largest-odd-number-in-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2032-largest-odd-number-in-string) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
