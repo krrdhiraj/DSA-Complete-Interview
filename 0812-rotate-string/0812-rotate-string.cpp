@@ -8,9 +8,7 @@ public:
         while(i < n){
             if(s == goal)
                 return true;
-            char ch = s[n-1];
-            s.pop_back();
-            s.insert(s.begin(), ch);
+            rotate(s.begin(), s.begin()+1, s.end());
             i++;
         }
         return false;
