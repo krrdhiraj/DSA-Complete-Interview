@@ -6,12 +6,15 @@ public:
         if(m != n)
             return false;
 
-        unordered_map<char,char> mp;
+        unordered_map<char,char> mp1;
+        unordered_map<char,char> mp2;
         for(int i = 0; i<n; i++){
-            if(mp.find(s[i]) != mp.end() && mp[s[i]] != t[i]){
+            if(mp1.find(s[i]) != mp1.end() && mp1[s[i]] != t[i]
+            || mp2.find(t[i]) != mp2.end() && mp2[t[i]] != s[i]){
                 return false;
             }
-            mp[s[i]] = t[i];
+            mp1[s[i]] = t[i];
+            mp2[t[i]] = s[i];
         }
         return true;
     }
