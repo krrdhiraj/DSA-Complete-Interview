@@ -3,17 +3,14 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        for(int i = 0; i<m; i++){
-            int l = 0, h = n-1;
-            while(l <= h){
-                int mid = (l+h)/2;
-                if(matrix[i][mid]== target){
-                    return true;
-                }else if(matrix[i][mid] > target){
-                    h = mid-1;
-                }else{
-                    l = mid+1;
-                }
+        int row = 0, col = n-1;
+        while(row < m && col >= 0){
+            if(matrix[row][col] > target){
+                col--;
+            }else if(matrix[row][col] < target){
+                row++;
+            }else{
+                return true;
             }
         }
         return false;
