@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/imchiku/DSA-Complete-Interview/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2047-find-a-peak-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2047-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2058-concatenation-of-array) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
+| [2047-find-a-peak-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2047-find-a-peak-element-ii) |
 | [2294-minimum-time-to-complete-trips](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2294-minimum-time-to-complete-trips) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -458,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0240-search-a-2d-matrix-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
+| [2047-find-a-peak-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2047-find-a-peak-element-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
