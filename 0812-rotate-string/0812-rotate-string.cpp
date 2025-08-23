@@ -2,16 +2,16 @@ class Solution {
 public:
     bool rotateString(string s, string goal) {
         int n = s.length();
-        int j = n-1;
-        while(j >= 0){
-            char ch = s[n-1];
-            for(int i = n-2; i>= 0; i--){
-                s[i+1] = s[i];
-            }
-            s[0] = ch;
+        int m = goal.length();
+        if(m != n)  return false;
+        int i  = 0;
+        while(i < n){
             if(s == goal)
                 return true;
-            j--;
+            char ch = s[n-1];
+            s.pop_back();
+            s.insert(s.begin(), ch);
+            i++;
         }
         return false;
     }
