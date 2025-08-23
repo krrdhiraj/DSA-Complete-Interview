@@ -1,27 +1,22 @@
 class Solution {
 public:
-    
+    typedef pair<char,int> p;
     string frequencySort(string s) {
-        unordered_map<char,int> mp;
+        vector<p> mp(123);
         for(char ch : s){
-            mp[ch]++;
+           mp[ch] = {ch,mp[ch].second+1};
         }
 
-        vector<pair<char,int>> chars;
-        for(auto it : mp){
-            chars.push_back({it.first, it.second});
-        }
         auto comp = [](pair<char,int> p1, pair<char,int> p2){
             return p1.second>p2.second;
         };
-        sort(chars.begin(), chars.end(), comp);
+        sort(mp.begin(), mp.end(), comp);
 
         string ans ;
-        for(auto p : chars){
-            int freq = p.second;
-            while( freq--){
-                ans+= p.first;
-            }
+        for(auto pr : mp){
+            int freq = pr.second;
+            string t = string(freq,pr.first);
+            ans += t;
         }
         return ans;
     }
