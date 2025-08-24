@@ -1,18 +1,21 @@
 class Solution {
 public:
     int romanToInt(string s) {
-        // store all the roman symbol with their respective value
-        unordered_map<char,int> um{{'I',1}, {'V',5}, {'X',10}, {'L',50}, {'C',100}, {'D',500}, {'M',1000}};
-
         int n = s.length();
+        unordered_map<char, int> mp{{'I',1}, {'V',5}, {'X',10}, {'L',50}, {'C',100}, {'D', 500}, {'M', 1000} };
         int ans = 0;
-        // Now traverse the string and find their integer value
         for(int i = 0; i<n; i++){
-            if(i+1 < n &&  um[s[i]] < um[s[i+1]]){
-                ans += um[s[i+1]]-um[s[i]];
+            if(s[i] == 'I' && i+1 < n && s[i+1] == 'V'){
+                ans += mp[s[i+1]]-mp[s[i]];
+                i++;
+            }else if(s[i] == 'X' && i+1 < n && (s[i+1] == 'L' || s[i+1] == 'C' )){
+                ans += mp[s[i+1]]-mp[s[i]];
+                i++;
+            }else if(s[i] == 'C' && i+1 < n && (s[i+1] == 'D' || s[i+1] == 'M')){
+                ans += mp[s[i+1]]-mp[s[i]];
                 i++;
             }else{
-                ans += um[s[i]];
+                ans += mp[s[i]];
             }
         }
         return ans;
