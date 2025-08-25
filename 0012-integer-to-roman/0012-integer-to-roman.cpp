@@ -8,7 +8,8 @@ public:
 
         string ans;
         for(int i = 0; i<13; i++){
-           
+           if(num == 0)
+            break;
             int div = num/val[i];
             num = num%val[i];
             while(div--){
