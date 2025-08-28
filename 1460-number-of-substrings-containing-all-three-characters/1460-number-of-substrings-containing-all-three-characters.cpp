@@ -3,13 +3,18 @@ public:
     int numberOfSubstrings(string s) {
         int cnt  = 0;
         int n = s.length();
-         vector<int> mp{-1,-1,-1};
-        for(int i = 0 ; i<n; i++){
-           mp[s[i]-'a'] = i;
+        vector<int> mp(3);
+        int i = 0, j = 0;
 
-           if(mp[0] != -1 && mp[1] != -1 && mp[2] != -1){
-             cnt += 1 + min(mp[0], min(mp[1], mp[2]));
-           }
+        while(j < n){
+            mp[s[j]-'a']++;
+            while(mp[0] > 0 && mp[1] > 0 && mp[2] > 0){
+                cnt += n-j;
+
+                mp[s[i]-'a']--;
+                i++;
+            }
+            j++;
         }
             
         return cnt;
