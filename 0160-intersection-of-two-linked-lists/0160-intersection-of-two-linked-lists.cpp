@@ -17,9 +17,9 @@ public:
             if(s1 == s2)
                 return s1;
             if(s1 == nullptr)
-                s1 = headB;
+                s1 = headA;
             if(s2 == nullptr)
-                s2 = headA;
+                s2 = headB;
        }
        return s1;
     }
