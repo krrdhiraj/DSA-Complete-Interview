@@ -10,26 +10,45 @@
  */
 class Solution {
 public:
+    ListNode* findKthNode(ListNode* temp, int k){
+        while(temp != NULL && k > 1){
+            temp = temp->next;
+            k--;
+        }
+        return temp;
+    }
+    ListNode* reverse(ListNode* head){
+        ListNode* prev = NULL, *curr = head;
+        while(curr != NULL){
+            ListNode* nextNode = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextNode;
+        }
+        return prev;
+    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        vector<int> vec;
-        ListNode* temp = head;
-        while(temp != nullptr){
-            vec.push_back(temp->val);
-            temp = temp->next;
-        }
-        for(int i = 0; i+k<=vec.size(); i += k){
-            int l = i, r = i+k-1;
-            while(l < r){
-                swap(vec[l], vec[r]);
-                l++;r--;
+       ListNode* temp = head, *nextNode = NULL, *prevNode = NULL;
+       while(temp != NULL){
+            ListNode* kthNode = findKthNode(temp, k);
+            if(kthNode == NULL){
+                if(prevNode){
+                    prevNode->next = temp;
+                    break;
+                }
             }
-        }
-        ListNode* dummy = new ListNode(-1);
-        temp = dummy;
-        for(int val : vec){
-            temp->next = new ListNode(val);
-            temp = temp->next;
-        }
-        return dummy->next;
+            nextNode = kthNode->next;
+            kthNode->next = NULL;
+            reverse(temp);
+
+            if(head == temp){
+                head = kthNode;
+            }else{
+                prevNode->next = kthNode;
+            }
+            prevNode = temp;
+            temp = nextNode;
+       }
+       return head;
     }
 };
