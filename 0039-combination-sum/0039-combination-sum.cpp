@@ -1,25 +1,27 @@
 class Solution {
 public:
-    void helper(vector<vector<int>> &ans,vector<int>& c, vector<int>& v,int sm, int t, int i ){
-        if(i >= c.size()){
-            if(sm == t)
-                ans.push_back(v);
+    vector<vector<int>> ans;
+    void recursion(vector<int> &can, int i, int sm,int target, vector<int>& temp){
+        if(i >= can.size() ){
+            if(sm == target){
+                ans.push_back(temp);
+            }
             return ;
         }
-        if(sm <= t){
-            sm += c[i];
-            v.push_back(c[i]);
-            helper(ans, c, v, sm, t, i);
-            sm -= c[i];
-        v.pop_back();
-        }
         
-        helper(ans, c, v, sm, t, i+1);
+        if(sm < target){
+            sm += can[i];
+            temp.push_back(can[i]);
+            recursion(can, i, sm, target, temp);
+            sm -= can[i];
+            temp.pop_back();
+        }
+        recursion(can, i+1, sm, target, temp);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> ans;
-        vector<int> v;
-        helper(ans, candidates, v, 0, target, 0);
+        vector<int> temp;
+        recursion(candidates, 0, 0, target, temp);
+
         return ans;
     }
 };
