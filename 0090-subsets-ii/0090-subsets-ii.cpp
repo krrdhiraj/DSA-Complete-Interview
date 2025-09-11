@@ -15,7 +15,7 @@ public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> temp;
-        // sort(begin(nums), end(nums));
+        sort(begin(nums), end(nums));
         recursion(nums, 0, temp, ans);
 
         return ans;
