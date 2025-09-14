@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
+| [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0239-sliding-window-maximum) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 ## Two Pointers
 |  |
