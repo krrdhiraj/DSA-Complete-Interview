@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0038-count-and-say) |
+| [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0205-isomorphic-strings) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0090-subsets-ii) |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0207-course-schedule](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
@@ -390,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
@@ -510,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0240-search-a-2d-matrix-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
