@@ -10,9 +10,9 @@ public:
         char ch = board[i][j];
         board[i][j] = '&';
 
-        for(vector<int> d : dir){
-            int newI = i + d[0];
-            int newJ = j + d[1];
+        for(int k = 0; k < 4; k++){
+            int newI = i + dir[k][0];
+            int newJ = j + dir[k][1];
             if(backTrack(board, newI, newJ, idx+1, word))   
                 return true;
         }
