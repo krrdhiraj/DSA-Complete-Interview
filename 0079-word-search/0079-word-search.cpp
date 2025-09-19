@@ -6,7 +6,7 @@ public:
         if(idx == word.length()){
             return true;
         }
-        if(i >= m || j >= n || i < 0 || j < 0){
+        if(i >= m || j >= n || i < 0 || j < 0 || board[i][j] == '&'){
             return false;
         }
         if(board[i][j] != word[idx])
