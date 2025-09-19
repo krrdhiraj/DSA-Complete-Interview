@@ -1,7 +1,7 @@
 class Solution {
 public:
     int m, n;
-    int dir[4][2] = {{1,0},{-1,0},{0,1},{0,-1}};
+    vector<vector<int>> dir{{1,0},{-1,0},{0,1},{0,-1}};
     bool backTrack(vector<vector<char>> &board, int i, int j, int idx, string word){
         if(idx == word.length())
             return true;
@@ -10,9 +10,9 @@ public:
         char ch = board[i][j];
         board[i][j] = '&';
 
-        for(int k = 0; k<4; k++){
-            int newI = i + dir[k][0];
-            int newJ = j + dir[k][1];
+        for(vector<int> d : dir){
+            int newI = i + d[0];
+            int newJ = j + d[1];
             if(backTrack(board, newI, newJ, idx+1, word))   
                 return true;
         }
