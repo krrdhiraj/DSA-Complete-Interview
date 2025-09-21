@@ -1,41 +1,37 @@
 class Solution {
     List<List<String>> ans = new ArrayList<>();
-    boolean isSafe(List<String> board, int row, int col, int n){
-        // check upward
-        for(int i = row-1; i>= 0; i--){
-            if(board.get(i).charAt(col) == 'Q')
-                return false;
-        }
-        // check right diagonal upward
-        for(int i = row-1, j = col+1; i>= 0 && j < n; j++, i--){
-            if(board.get(i).charAt(j) == 'Q')
-                return false;
-        }
-        // check left diagonal upward
-        for(int i = row-1, j = col-1; i>= 0 && j >= 0; j--, i--){
-            if(board.get(i).charAt(j) == 'Q')
-                return false;
-        }
-        return true;
-    }
-    public void placeQueens(List<String> board, int row, int n){
+    public void placeQueens(List<String> board, int row, int n, HashSet<Integer> colSt, HashSet<Integer> diagSt, HashSet<Integer> antiDiagSt){
         if(row >= n){
             ans.add(new ArrayList<>(board));
             return ;
         }
         for(int col = 0; col < n; col++){
-            if(isSafe(board, row, col, n)){
-                StringBuilder sb = new StringBuilder(board.get(row));
-                sb.setCharAt(col, 'Q');
-                board.set(row, sb.toString());
-                placeQueens(board, row+1, n);
-                sb.setCharAt(col, '.');
-                board.set(row, sb.toString());
+            int diagonal = row-col;
+            int antiDiag = row+col;
+            if(colSt.contains(col) || diagSt.contains(diagonal) || antiDiagSt.contains(antiDiag)){
+                    continue;
             }
+            colSt.add(col);
+            diagSt.add(diagonal);
+            antiDiagSt.add(antiDiag);
+            StringBuilder sb = new StringBuilder(board.get(row));
+            sb.setCharAt(col, 'Q');
+            board.set(row, sb.toString());
+            placeQueens(board, row+1, n, colSt, diagSt, antiDiagSt);
+            sb.setCharAt(col, '.');
+            board.set(row, sb.toString());
+            colSt.remove(col);
+            diagSt.remove(diagonal);
+            antiDiagSt.remove(antiDiag);
         }
     }
     public List<List<String>> solveNQueens(int n) {
         List<String> board = new ArrayList<>();
+
+        HashSet<Integer> colSt = new HashSet<>();
+        HashSet<Integer> diagSt = new HashSet<>();
+        HashSet<Integer> antiDiagSt = new HashSet<>();
+
        
         for(int i = 0; i<n; i++){
             StringBuilder sb = new StringBuilder();
@@ -44,7 +40,7 @@ class Solution {
             }
             board.add(sb.toString());
         }
-        placeQueens(board, 0, n);
+        placeQueens(board, 0, n, colSt, diagSt, antiDiagSt);
         return ans;
     }
 }
