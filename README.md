@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0451-sort-characters-by-frequency) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 ## Two Pointers
 |  |
