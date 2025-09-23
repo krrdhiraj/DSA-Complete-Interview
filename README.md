@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0160-intersection-of-two-linked-lists) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0162-find-peak-element) |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
@@ -555,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 ## Merge Sort
 |  |
 | ------- |
@@ -610,4 +615,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0234-palindrome-linked-list) |
 | [1078-remove-outermost-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
