@@ -1,7 +1,18 @@
 class MyQueue {
 public:
-    stack<int> st;
-    
+    stack<int> st, temp;
+    void reverseToOriginal(){
+        while(!temp.empty()){
+                st.push(temp.top());
+                temp.pop();
+            }
+    }
+    void reverse(){
+        while(!st.empty()){
+                temp.push(st.top());
+                st.pop();
+            }
+    }
     MyQueue() {
         
     }
@@ -13,17 +24,10 @@ public:
     int pop() {
         int top = -1;
         if(!st.empty()){
-            stack<int> temp;
-            while(!st.empty()){
-                temp.push(st.top());
-                st.pop();
-            }
+            reverse();
             top = temp.top();
             temp.pop();
-            while(!temp.empty()){
-                st.push(temp.top());
-                temp.pop();
-            }
+            reverseToOriginal();
         }
         return top;
     }
@@ -31,16 +35,9 @@ public:
     int peek() {
         int top = -1;
         if(!st.empty()){
-            stack<int> temp;
-            while(!st.empty()){
-                temp.push(st.top());
-                st.pop();
-            }
-            top = temp.top();
-            while(!temp.empty()){
-                st.push(temp.top());
-                temp.pop();
-            }
+            reverse();
+            top = temp.top();;
+            reverseToOriginal();
         }
         return top;
     }
