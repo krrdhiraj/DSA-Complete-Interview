@@ -15,7 +15,7 @@ public:
             }
             st.push(nums[j]);
         }
-        for(int j = n-1; j> 0; j--){
+        for(int j = n-1; j>= 0; j--){
             while(!st.empty() && st.top() <= nums[j]){
                 st.pop();
             }
