@@ -4,29 +4,20 @@ public:
         stack<int> st;
         int n = nums.size();
         vector<int> ans(n);
-        for(int j = n-1; j>= 0; j--){
-            while(!st.empty() && st.top() <= nums[j]){
+        for(int j = 2*n-1; j>= 0; j--){
+            while(!st.empty() && st.top() <= nums[j%n]){
                 st.pop();
             }
-            if(st.empty()){
-                ans[j] = -1;
-            }else{
-                ans[j] = st.top();
+            if(j < n){
+                if(st.empty()){
+                    ans[j] = -1;
+                }else{
+                    ans[j] = st.top();
+                }
             }
-            st.push(nums[j]);
+            st.push(nums[j % n]);
         }
-        for(int j = n-1; j>= 0; j--){
-            while(!st.empty() && st.top() <= nums[j]){
-                st.pop();
-            }
-            if(st.empty()){
-                ans[j] = -1;
-            }else{
-                ans[j] = st.top();
-            }
-            st.push(nums[j]);
-        }
-        // ans[n-1] = st.size() == 0 ? -1 : st.top();
+       
         return ans;
     }
 };
