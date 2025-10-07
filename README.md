@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2215-finding-3-digit-even-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2215-finding-3-digit-even-numbers) |
+| [2227-sum-of-subarray-ranges](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2227-sum-of-subarray-ranges) |
 | [2249-count-the-hidden-sequences](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2249-count-the-hidden-sequences) |
 | [2262-solving-questions-with-brainpower](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2262-solving-questions-with-brainpower) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0735-asteroid-collision) |
 | [1078-remove-outermost-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2227-sum-of-subarray-ranges](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2227-sum-of-subarray-ranges) |
 ## Memoization
 |  |
 | ------- |
@@ -642,4 +644,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0503-next-greater-element-ii) |
+| [2227-sum-of-subarray-ranges](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
