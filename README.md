@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
 | [0219-contains-duplicate-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0219-contains-duplicate-ii) |
@@ -509,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 | [1656-count-good-triplets](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1656-count-good-triplets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2215-finding-3-digit-even-numbers) |
 | [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
@@ -666,4 +669,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0943-sum-of-subarray-minimums) |
 | [2227-sum-of-subarray-ranges](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2227-sum-of-subarray-ranges) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
