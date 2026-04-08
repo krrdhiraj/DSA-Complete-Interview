@@ -26,7 +26,7 @@ public:
     Node* cloneGraph(Node* node) {
         if(node == NULL)
             return node;
-        if(mp.contains(node)){
+        if(mp.find(node) != mp.end()){
             return mp[node];
         }
         Node* clone = new Node(node->val);
