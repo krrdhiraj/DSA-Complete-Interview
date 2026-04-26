@@ -3,11 +3,12 @@ class Solution {
         Map<String, List<String>> mp = new HashMap<>();
 
         for(String s : strs){
+            int[] freq = new int[26];
+            for(char ch : s.toCharArray()){
+                freq[ch-'a']++;
+            }
 
-            char[] chars = s.toCharArray();
-            Arrays.sort(chars);
-            String str = new String(chars);
-
+            String str = Arrays.toString(freq);
             mp.putIfAbsent(str, new ArrayList<>());
             mp.get(str).add(s);
         }
