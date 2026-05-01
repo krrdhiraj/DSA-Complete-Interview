@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
+| [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
+| [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0485-max-consecutive-ones) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0152-maximum-product-subarray) |
+| [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
