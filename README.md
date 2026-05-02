@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0209-minimum-size-subarray-sum) |
 | [0216-combination-sum-iii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0216-combination-sum-iii) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0133-clone-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
@@ -336,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
@@ -567,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0240-search-a-2d-matrix-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
@@ -689,4 +693,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0133-clone-graph) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
