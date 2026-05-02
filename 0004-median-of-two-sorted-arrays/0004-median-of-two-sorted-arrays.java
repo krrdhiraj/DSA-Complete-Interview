@@ -21,12 +21,12 @@ class Solution {
         while(j < n){
             temp[k++] = nums2[j++];
         }
-        double median = 0.0;
+        double median = 0;
         int mid = (m+n)/2;
         if((m+n)%2 == 0){
-            median = ((double)temp[mid] + (double)temp[mid-1])/2.0;
+            median = (temp[mid] + temp[mid-1])/2.0;
         }else{
-            median = (double)temp[mid];
+            median = temp[mid];
         }
 
         return median;
