@@ -1,4 +1,5 @@
 class Solution {
+    int[][] direction = {{0,1},{1,0},{-1,0},{0,-1}};
     public void dfs(int i, int j, char[][] grid){
         if(i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == '0'){
             return ;
@@ -7,10 +8,9 @@ class Solution {
         grid[i][j] = '0'; // already visited
         
         // now move further
-        dfs(i+1, j, grid); // down
-        dfs(i, j+1, grid); // right
-        dfs(i, j-1, grid); // up
-        dfs(i-1, j, grid); // left
+        for(int[] dir : direction){
+            dfs(i+dir[0], j + dir[1], grid);
+        }
     }
     public int numIslands(char[][] grid) {
         int row = grid.length;
