@@ -6,15 +6,18 @@ class Solution {
         for(int num : nums){
             mp.put(num, mp.getOrDefault(num,0)+1);
         }
-        PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a,b)->b[0]-a[0]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->a[0]-b[0]);
         for(Map.Entry<Integer,Integer> entry : mp.entrySet()){
-            maxHeap.offer(new int[]{entry.getValue(), entry.getKey()});
+            pq.offer(new int[]{entry.getValue(), entry.getKey()});
+            while(pq.size() > k){
+                pq.poll();
+            }
         }
 
         int[] ans = new int[k];
         int i = 0;
-        while(i<k){
-            ans[i++] = maxHeap.poll()[1];
+        while(!pq.isEmpty()){
+            ans[i++] = pq.poll()[1];
         }
         return ans;
     }
