@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0943-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0966-binary-subarrays-with-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1032-satisfiability-of-equality-equations](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1032-satisfiability-of-equality-equations) |
 | [1034-subarrays-with-k-different-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1034-subarrays-with-k-different-integers) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
 |  |
 | ------- |
@@ -428,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0703-kth-largest-element-in-a-stream](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0744-network-delay-time](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0744-network-delay-time) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1046-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1753-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2434-design-a-number-container-system) |
@@ -519,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0948-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 | [2215-finding-3-digit-even-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2215-finding-3-digit-even-numbers) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2681-put-marbles-in-bags](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2681-put-marbles-in-bags) |
@@ -717,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 ## Tree
 |  |
 | ------- |
@@ -733,4 +739,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0703-kth-largest-element-in-a-stream) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
