@@ -1,19 +1,24 @@
 class Solution {
     // Optimal Approach : O(n)
     public int subarraySum(int[] nums, int k) {
-        int n = nums.length;
-        int ans = 0;
-        HashMap<Integer,Integer> mp = new HashMap<>();
-        mp.put(0,1);
-        int cummSm = 0;
-        for(int i = 0; i<n; i++){
-           cummSm += nums[i];
+       int n = nums.length;
+       // we will use prefix sum here {preSum[j]-preSum[i] = k} => {preSum[i] = preSum[j]-k}
 
-           if(mp.containsKey(cummSm-k)){
-             ans += mp.get(cummSm-k);
-           }
-           mp.put(cummSm, mp.getOrDefault(cummSm, 0) + 1);
-        }
-        return ans;
+       HashMap<Integer,Integer> mp = new HashMap<>();
+
+       // put {0,1}==> if sum = 0 then freq = 1;
+       mp.put(0,1);
+        int preSum = 0;
+        int res = 0;
+       for(int val : nums){
+            preSum += val;
+
+            if(mp.containsKey(preSum - k)){
+                res += mp.get(preSum - k);
+            }
+            mp.put(preSum, mp.getOrDefault(preSum, 0)+1);
+       }
+       return res;
+
     }
 }
