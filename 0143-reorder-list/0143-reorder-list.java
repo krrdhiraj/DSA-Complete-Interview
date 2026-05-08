@@ -33,9 +33,8 @@ class Solution {
             ListNode node = reverseHead;
             reverseHead = reverseHead.next;
             curr.next = node;
-            curr = node;
-            curr.next = temp;
-            curr = curr.next;
+            curr.next.next = temp;
+            curr = temp;
         }
     }
 }
