@@ -3,10 +3,12 @@ class Solution {
         Map<String,List<String>> mp = new HashMap<>();
         
         for(String s : strs){
-            char[] arr = s.toCharArray();
-            Arrays.sort(arr);
+            int[] arr = new int[26];
+            for(char ch : s.toCharArray()){
+                arr[ch-'a']++;
+            }
             
-            String temp = new String(arr);
+            String temp = Arrays.toString(arr);
             if(!mp.containsKey(temp)){
                 mp.put(temp, new ArrayList<>());
             }
