@@ -340,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0210-course-schedule-ii) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0547-number-of-provinces](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0801-is-graph-bipartite) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0328-odd-even-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Binary Indexed Tree
@@ -756,4 +758,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0374-guess-number-higher-or-lower) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 <!---LeetCode Topics End-->
