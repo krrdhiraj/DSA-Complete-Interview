@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2032-largest-odd-number-in-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2032-largest-odd-number-in-string) |
 | [2107-find-unique-binary-string](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2107-find-unique-binary-string) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [3612-process-string-with-special-operations-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3612-process-string-with-special-operations-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Array
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3612-process-string-with-special-operations-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3612-process-string-with-special-operations-i) |
 ## Design
 |  |
 | ------- |
