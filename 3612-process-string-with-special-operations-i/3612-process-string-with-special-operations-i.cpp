@@ -7,6 +7,8 @@ public:
             if(ch == '*'){
                 if(ans.length() > 0)
                     ans.pop_back();
+                else
+                    continue;
             }else if(ch == '#'){
                 ans += ans;
             }else if(ch == '%'){
