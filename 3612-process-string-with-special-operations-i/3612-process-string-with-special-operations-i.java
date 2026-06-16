@@ -6,8 +6,6 @@ class Solution {
             if(ch == '*'){
                 if(ans.length() > 0)
                     ans.deleteCharAt(ans.length()-1);
-                else
-                    continue;
             }else if(ch == '#'){
                 ans.append(ans);
             }else if(ch == '%'){
