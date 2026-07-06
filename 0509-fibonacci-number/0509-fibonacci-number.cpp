@@ -11,7 +11,6 @@ public:
 
         if(n <= 1)  return n;
         vector<int> mem(n+1, -1);
-        helper(n, mem);
-        return mem[n];
+        return helper(n, mem);
     }
 };
