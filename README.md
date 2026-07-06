@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0282-expression-add-operators) |
 | [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
+| [0509-fibonacci-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0509-fibonacci-number) |
 | [0973-k-closest-points-to-origin](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0973-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
+| [0509-fibonacci-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0509-fibonacci-number) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0943-sum-of-subarray-minimums](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0943-sum-of-subarray-minimums) |
 | [2262-solving-questions-with-brainpower](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2262-solving-questions-with-brainpower) |
@@ -548,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0234-palindrome-linked-list) |
+| [0509-fibonacci-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0509-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Combinatorics
@@ -712,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0139-word-break) |
+| [0509-fibonacci-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0509-fibonacci-number) |
 ## Monotonic Stack
 |  |
 | ------- |
