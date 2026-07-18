@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0735-asteroid-collision) |
+| [0746-min-cost-climbing-stairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0746-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0792-binary-search) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0907-koko-eating-bananas) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0509-fibonacci-number) |
+| [0746-min-cost-climbing-stairs](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0746-min-cost-climbing-stairs) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/imchiku/DSA-Complete-Interview/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0943-sum-of-subarray-minimums](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0943-sum-of-subarray-minimums) |
 | [2262-solving-questions-with-brainpower](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2262-solving-questions-with-brainpower) |
