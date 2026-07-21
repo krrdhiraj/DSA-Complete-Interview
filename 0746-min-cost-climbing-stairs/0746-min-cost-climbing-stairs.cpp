@@ -1,16 +1,16 @@
 class Solution {
 public:
-    
-    int minCost(vector<int>&cost, int n, vector<int> &mem){
-        if(n < 2)   return 0;
-        if(mem[n] != -1)    return mem[n];
-        return mem[n] = min(cost[n-1] + minCost(cost, n-1,mem) , cost[n-2] + minCost(cost, n-2,mem));
-    }
+    // Bottom up : Tablulation approach(sabse pahle base case)
     int minCostClimbingStairs(vector<int>& cost) {
         int n = cost.size();
         if(n < 2)
             return 0;
-        vector<int> mem(n+1, -1);
-        return minCost(cost, n, mem);
+        vector<int> dp(n+1); 
+        dp[0] = 0;
+        dp[1] = 0;
+        for(int i = 2; i<= n; i++){
+            dp[i] = min(dp[i-1]+cost[i-1], dp[i-2]+cost[i-2]);
+        }
+        return dp[n];
     }
 };
