@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1500-count-largest-group) |
 | [2032-largest-odd-number-in-string](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2050-count-good-numbers) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2180-count-integers-with-even-digit-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/imchiku/DSA-Complete-Interview/tree/master/2448-count-number-of-bad-pairs) |
 | [3548-find-the-count-of-good-integers](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3548-find-the-count-of-good-integers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0735-asteroid-collision) |
 | [1929-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/1929-concatenation-of-array) |
 | [2058-concatenation-of-array](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2058-concatenation-of-array) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2180-count-integers-with-even-digit-sum) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/imchiku/DSA-Complete-Interview/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
