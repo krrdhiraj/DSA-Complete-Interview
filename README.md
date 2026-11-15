@@ -783,4 +783,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0146-lru-cache) |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/krrdhiraj/DSA-Complete-Interview/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
